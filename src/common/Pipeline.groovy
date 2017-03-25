@@ -1,7 +1,6 @@
 package common
 
 @groovy.transform.AutoExternalize
-@groovy.transform.AutoClone
-class Pipeline implements Cloneable {
+class Pipeline {
   String branch
 }
