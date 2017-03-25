@@ -1,7 +1,7 @@
 package common
 
 @groovy.transform.AutoClone
-@com.cloudbees.groovy.NoCPS
+@jenkins.model.NoCPS
 class Pipeline implements Cloneable {
   String branch
 }
