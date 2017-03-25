@@ -1,5 +1,6 @@
 package common
 
-class Pipeline {
+@AutoClone
+class Pipeline implements Cloneable {
   String branch
 }
