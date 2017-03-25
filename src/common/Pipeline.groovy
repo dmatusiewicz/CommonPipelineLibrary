@@ -1,6 +1,6 @@
 package common
 
-@AutoClone
+@groovy.transform.AutoClone
 class Pipeline implements Cloneable {
   String branch
 }
