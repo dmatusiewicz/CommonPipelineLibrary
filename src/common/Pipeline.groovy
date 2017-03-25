@@ -1,6 +1,6 @@
 package common
 
-import com.cloudbees.groovy.cps.NonCPS
+import com.cloudbees.groovy.cps
 
 
 @groovy.transform.AutoClone
