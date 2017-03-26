@@ -6,6 +6,6 @@ import org.jenkinsci.plugins.*
 
 
 @com.cloudbees.groovy.cps.NonCPS
-static def check_out_gitlab_repo(credentialsId, url) {
+def check_out_gitlab_repo(credentialsId, url) {
   checkout([$class: 'GitSCM', branches: [[name: '*/master']], doGenerateSubmoduleConfigurations: false, extensions: [[$class: 'RelativeTargetDirectory', relativeTargetDir: 'CommonPipelineLibrary']], submoduleCfg: [], userRemoteConfigs: [[credentialsId: credentialsId, url: url]]])
 }
