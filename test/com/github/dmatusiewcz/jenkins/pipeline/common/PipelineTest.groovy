@@ -5,6 +5,6 @@ import static org.junit.Assert.*
 class PipelineTest {
   @Test
   public void branchTest(){
-    
+
   }
 }
