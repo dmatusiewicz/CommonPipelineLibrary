@@ -1,4 +1,4 @@
 
-def call() {
-  echo "test"
+def call(String roleARN) {
+  echo "test $roleARN"
 }
