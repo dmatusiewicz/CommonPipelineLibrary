@@ -1,4 +1,4 @@
-
+#!/usr/bin/env groovy
 
 def getCurl(host, port, path) {
    returnValue = sh (
