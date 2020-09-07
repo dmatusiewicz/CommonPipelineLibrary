@@ -1,3 +1,3 @@
-def assume() {
-  echo "Role to be assumed"
+def assume(message) {
+  echo "Role to be assumed ${message}"
 }
